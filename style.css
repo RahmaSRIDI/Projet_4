@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: yellow url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -736,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: yellow!important;
+    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -763,7 +763,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: yellow;
+    background-color: #FFFFFF;
 }
 
 .bgc-dark-slate-blue {
@@ -780,16 +780,16 @@ h4 {
 
 .btn-atomic-tangerine {
     background: red;
-    color: yellow!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: yellow!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white {
-    color: yellow!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
