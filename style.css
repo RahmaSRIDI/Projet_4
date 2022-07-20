@@ -1040,3 +1040,11 @@ h4 {
         text-align: center;
     }
 }
+.hiddenText{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
