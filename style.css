@@ -1115,6 +1115,6 @@ p {
 }
 
 .black-white-police {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: rgb(243, 151, 108);
+    color: rgb(0, 23, 61);
 }
