@@ -671,6 +671,7 @@ label,
 
 
 a {
+    font-size: "x-large";
     font-family: "helvetica";
     font-weight: 400;
     color: #575757 !important;
@@ -951,11 +952,13 @@ p {
 
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none !important;
     }
 
     .navbar.row {
+        display: flex;
+        justify-content: space-between;
+        
         margin-left: 0;
         margin-right: 0;
     }
@@ -969,8 +972,7 @@ p {
 
     .nav>li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        
         text-align: left;
         padding-left: 15px;
         width: 100%;
