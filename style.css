@@ -598,7 +598,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: -14px;
 }
 
 .close-lightbox {
@@ -956,9 +956,9 @@ p {
     }
 
     .navbar.row {
-        display: flex;
+        /*display: flex;*/
         justify-content: space-between;
-        
+
         margin-left: 0;
         margin-right: 0;
     }
@@ -972,7 +972,7 @@ p {
 
     .nav>li {
         margin-top: 0;
-        
+
         text-align: left;
         padding-left: 15px;
         width: 100%;
@@ -1009,7 +1009,8 @@ p {
     }
 
     .navbar-collapse {
-        padding: 0;
+        padding-left: 61%;
+        /*padding: 0;*/
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
@@ -1108,6 +1109,7 @@ p {
     .bloc-mob-center-text {
         text-align: center;
     }
+
     .centre_element {
         display: flex;
         flex-direction: column;
@@ -1133,9 +1135,11 @@ p {
     display: flex;
     justify-content: space-between;
 }
-.annuaire{
+
+.annuaire {
     padding-left: 40px;
     padding-bottom: 10px;
-    color:black;
+    color: black;
     font-weight: 200;
+    font-size: 26px;
 }
